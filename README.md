@@ -1,1 +1,1 @@
-# vcu2018
+# VCU Decision Analytics 2018
