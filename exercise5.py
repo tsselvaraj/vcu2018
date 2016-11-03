@@ -17,10 +17,10 @@ try:
 
     # Please create a Twitter app key here https://apps.twitter.com
     ts = TwitterSearch(
-        consumer_key='XXXXXXX',
-        consumer_secret='XXXXXXXX',
-        access_token='XXXXXXXXX',
-        access_token_secret='XXXXXXXXXXX'
+        consumer_key='hjAiR0bG54BrCfoYo3sYg',
+        consumer_secret='w73bFtBO02jswmjw3ln3jXqyZ9Bwwdslw6ZM1HIBKI',
+        access_token='45871162-XX6R7StzotBFAIxHGGZkZ49GtoxdXFXpkmHi24ZqS',
+        access_token_secret='gpOtpOaOrE9nUrfKu4OAIzqIIUsaRyboMqFDHWnKCRvan'
     )
 
     count = 1
@@ -43,7 +43,7 @@ try:
 
     print (df)
 
-except TwitterSearchException as e:  # take care of all those ugly errors if there are some
+except TwitterSearchException as e:  # take care of all those errors
     print(e)
 
 #save to xls
