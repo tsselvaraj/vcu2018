@@ -43,3 +43,4 @@ except TwitterSearchException as e:  # take care of all those ugly errors if the
 writer = ExcelWriter('tweets.xlsx')
 df.to_excel(writer, 'Sheet1')
 writer.save()
+
