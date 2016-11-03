@@ -35,7 +35,7 @@ try:
 
     print(df)
 
-except TwitterSearchException as e:  # take care of all those ugly errors if there are some
+except TwitterSearchException as e:  # take care of all those errors
     print(e)
 
 # save to xls
